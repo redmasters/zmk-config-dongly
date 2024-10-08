@@ -1,7 +1,7 @@
 if SHIELD_CORNE_LEFT || SHIELD_CORNE_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Corne"
+    default "Corne ReD"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
