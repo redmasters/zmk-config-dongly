@@ -4,7 +4,7 @@ This is my personal [ZMK](https://zmk.dev) configuration for my corne keyboard.
 The configuration supports using the two halves as is or additionally use a
 USB dongle.
 
-![Corne Keyboard with Dongle](/setup.jpg)
+![Corne Keyboard with Dongle](/setup.jpeg)
 
 ## 🤔 Why a Dongle?
 
@@ -37,8 +37,8 @@ master anymore so flash it with the `corne_peripheral_left*.uf2` file.
 
 ## ❓ Troubleshooting
 
-This repository uses [nice!nano's](https://nicekeyboards.com/nice-nano/) for
-the split keyboard itself and a [Seeed XIAO BLE](https://wiki.seeedstudio.com/XIAO_BLE/) for the dongle.
+This repository uses [super mini promicro](https://github.com/joric/nrfmicro/wiki/Alternatives#supermini-nrf52840) for
+the split keyboard itself and for the dongle.
 If you do not own the same hardware, this repository will not work without any
 adjustments.
 
