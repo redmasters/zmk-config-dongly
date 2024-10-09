@@ -16,9 +16,6 @@ manifest:
     - name: zmk-auto-layer
       revision: main
       path: modules/auto-layer
-    - name: zmk-tri-state
-      revision: main
-      path: modules/tri-state
 
     - name: zmk
       remote: urob
