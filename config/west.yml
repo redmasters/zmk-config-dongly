@@ -6,7 +6,7 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
   projects:
-    - name: zmk
+    - name: zmk-urob
       remote: urob
       revision: main
       import: app/west.yml
