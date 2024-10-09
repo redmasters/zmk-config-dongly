@@ -1,22 +1,16 @@
----
 manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
-
   projects:
-    - name: zmk-helpers
-      revision: main
-      path: modules/helpers
-
-    - name: zmk-auto-layer
-      remote: urob
-      revision: main
-
     - name: zmk
       remote: urob
       revision: main
       import: app/west.yml
+
+    - name: zmk-helpers
+      revision: main
+      path: modules/helpers
 
   self:
     path: config
