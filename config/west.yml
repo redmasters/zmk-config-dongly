@@ -9,8 +9,8 @@ manifest:
       import: app/west.yml
 
     - name: zmk-helpers
-      remote: urob
       revision: main
+      path: modules/helpers
 
   self:
     path: config
