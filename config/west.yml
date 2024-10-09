@@ -1,4 +1,7 @@
 manifest:
+  defaults:
+    remote: urob
+
   remotes:
     - name: urob
       url-base: https://github.com/urob
@@ -11,6 +14,13 @@ manifest:
     - name: zmk-helpers
       revision: main
       path: modules/helpers
+
+    - name: zmk
+      revision: going-modular
+      path: .
+      import:
+        file: app/west.yml
+        path-prefix: zmk
 
   self:
     path: config
